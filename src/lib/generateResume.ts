@@ -71,6 +71,9 @@ export const generateResumePDF = () => {
       "Performed architecture reviews & cost audits, improving resource utilization by up to 40%.",
       "Led POC sessions with enterprise clients involving K8s, PostgreSQL & VPC networking.",
       "Authored technical white papers, case studies, tutorials and conducted workshops.",
+      "Led generative AI POCs on DigitalOcean Gradient AI Platform for AI-powered applications.",
+      "Designed LLM architectures with GPU inference, managed DBs, storage & containerized microservices.",
+      "Advised on GPU selection, AI workload sizing & cost-performance trade-offs.",
     ]},
     { company: "Google Operations Center", role: "Cloud Engineer Specialist", period: "Oct 2021 – Dec 2022", items: [
       "Provided Google Cloud training to new hires and experienced staff as technical trainer.",

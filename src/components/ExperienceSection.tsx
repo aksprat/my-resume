@@ -14,6 +14,9 @@ const experiences = [
       "Led POC sessions with enterprise clients involving Kubernetes, PostgreSQL, and VPC networking.",
       "Authored technical white papers and case studies for the wider technology community.",
       "Conducted technical workshops and webinars to educate clients on product features.",
+      "Led generative AI POCs and demos on DigitalOcean Gradient AI Platform, enabling customers to build and scale AI-powered applications.",
+      "Designed LLM-based architectures leveraging GPU inference, managed databases, object storage, and containerized microservices.",
+      "Advised customers on GPU selection, AI workload sizing, and cost-performance trade-offs for inference and training.",
     ],
   },
   {
