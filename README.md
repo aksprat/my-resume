@@ -71,3 +71,19 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+ the resume content is spread across these component files:
+
+Section	File
+Hero (name, summary, links)	src/components/HeroSection.tsx
+Work Experience	src/components/ExperienceSection.tsx
+Skills	src/components/SkillsSection.tsx
+Education	src/components/EducationSection.tsx
+Certifications	src/components/CertificationsSection.tsx
+Awards	src/components/AwardsSection.tsx
+Publications & Videos	src/components/PublicationsSection.tsx
+Contact info	src/components/ContactSection.tsx
+PDF Resume generator	src/lib/generateResume.ts
+In each file, the data is in arrays/objects at the top (e.g. experiences, skills, certs, awards). You can edit those directly.
+
+Important: If you update content in a component, also update src/lib/generateResume.ts to keep the downloadable PDF in sync.
