@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => ({
   preview: {
     host: "::",
     port: 8080,
-    allowedHosts: ["my-resume-e95bf.ondigitalocean.app"],
+    allowedHosts: ["my-resume-e95bf.ondigitalocean.app", "resume.akshitpratiush.online"],
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
