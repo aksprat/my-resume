@@ -30,7 +30,7 @@ const SkillsSection = () => {
           <div className="w-16 h-1 bg-primary rounded-full" />
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {skills.map((skill, i) => (
             <motion.div
               key={i}
