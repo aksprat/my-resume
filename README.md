@@ -64,6 +64,18 @@ This project is built with:
 
 Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
+## Deploy on DigitalOcean App Platform
+
+If App Platform fails during dependency install with `ERESOLVE`, use these settings:
+
+- **Environment**: Node.js
+- **Node version**: 22.x (this repo sets `"engines": { "node": ">=22 <25" }`)
+- **Install command**: `npm install`
+- **Build command**: `npm run build`
+- **Run command**: `npm run preview -- --host 0.0.0.0 --port $PORT`
+
+This repository now pins `eslint` to a version compatible with `eslint-plugin-react-hooks`, so `--legacy-peer-deps` should not be required.
+
 ## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
